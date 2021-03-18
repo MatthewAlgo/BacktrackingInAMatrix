@@ -1,0 +1,58 @@
+ENGLISH
+
+
+~~~~~~~~~~ Backtracking Viewer ~~~~~~~~~~~~~~~
+
+
+
+Usage command: ./WorldWideC++.exe Pathfind 0 0 5 5
+
+(What this means?)
+
+Basically, we tell the program that we have to start from (0, 0) and get to (5, 5). The "Pathfind" argument ensures that we use the current mode, respectively the visualization of the backtracking in the plan.
+
+!! OUR MATRIX MUST BE LOADED IN MATRIXTEST.json !!
+Initially, the program reads from there the number of rows and the number of columns, then the matrix must be entered, WITH -1 REPRESENTING THE WALLS, AND 0 THE NORMAL ROAD, WHICH THE ALGORITHM CAN TAKE INTO ACCOUNT
+
+
+
+At runtime, the program will display a window. Wait until the first road appears, which is marked with numbers and the color RED.
+
+Then click on the window to display the next possibility.
+
+The window will close at the end of the possibilities.
+
+
+~~~~~~~ C: MatthewAlgo 2021 ~~~~~~~~~~~
+
+
+
+
+ROMANIAN
+
+~~~~~~~~~~ Vizualizator de backtracking ~~~~~~~~~~~~~~
+
+
+
+Comanda de utilizare: ./WorldWideC++.exe Pathfind 0 0 5 5  
+
+(Ce inseamna asta?)
+
+Practic, noi ii spunem programului ca trubuie sa plecam din (0, 0) si sa ajungem in (5, 5). Argumentul "Pathfind" se asigura ca folosim modul curent, respectiv vizualizarea backtrackingului in plan.
+
+!!MATRICEA NOASTRA TREBUIE INCARCATA IN MATRIXTEST.json!!
+Initial, Programul citeste de acolo numarul de linii si numarul de coloane, apoi matricea trebuie introdusa, CU -1 REPREZENTAND PERETII, IAR 0 DRUMUL NORMAL, PE CARE ALGORITMUL IL POATE LUA IN CONSIDERARE
+
+
+
+La executie, programul va afisa o fereastra. Asteapta pana cand apare primul drum, care este marcat cu cifre si cu culoarea ROSU.
+
+Apoi, clic pe fereastra pentru afisarea urmatoarei posibilitati.
+
+Fereastra se va inchide la terminarea posibilitatilor.
+
+
+~~~~~~~ C: MatthewAlgo 2021 ~~~~~~~~~~
+
+
+
